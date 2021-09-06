@@ -168,6 +168,10 @@ This is mandatory to set <i>BlinkPath</i> property with BlinkBinaries folder, ot
 
 * The <b>BlinkBinariesLinux</b> folder is available in the HTML to PDF Converter NuGet package installed location. The physical path of this folder should be set to the <i>BlinkPath</i> property of BlinkConverterSettings. This is mandatory to set the <i>BlinkPath</i> property with BlinkBinariesLinux folder, otherwise the converter will throw <b>Blink assemblies are missing</b> exception.
 
+* To convert HTML to PDF in Linux using the Blink rendering engine, the following packages should be installed in the Linux machine where the conversion takes place.
+	1. $ sudo apt-get update 		
+	2. $ sudo apt-get install libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 libnss3
+
 ## Prerequisites for Mac
 
 * Supports conversion from [.NET Core 2.0](https://www.microsoft.com/net/learn/get-started/macos). 
